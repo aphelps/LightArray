@@ -3733,8 +3733,8 @@ grid 2.54 mm</description>
 <part name="TLC_IN_2" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="TLC_IN_1" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="TLC_OUT" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
-<part name="8-15" library="SparkFun-Connectors" deviceset="M08" device="LONGPADS"/>
 <part name="POWER" library="SparkFun-Connectors" deviceset="M03" device="LONGPADS"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M08" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3815,8 +3815,8 @@ grid 2.54 mm</description>
 <instance part="TLC_IN_2" gate="G$1" x="276.86" y="231.14"/>
 <instance part="TLC_IN_1" gate="G$1" x="276.86" y="243.84"/>
 <instance part="TLC_OUT" gate="G$1" x="276.86" y="200.66"/>
-<instance part="8-15" gate="G$1" x="279.4" y="274.32"/>
 <instance part="POWER" gate="G$1" x="223.52" y="276.86"/>
+<instance part="JP1" gate="G$1" x="279.4" y="274.32"/>
 </instances>
 <busses>
 </busses>
@@ -4202,7 +4202,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="266.7" x2="294.64" y2="266.7" width="0.1524" layer="91"/>
 <label x="289.56" y="266.7" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IN9" class="0">
@@ -4214,7 +4214,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="269.24" x2="294.64" y2="269.24" width="0.1524" layer="91"/>
 <label x="289.56" y="269.24" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IN10" class="0">
@@ -4226,7 +4226,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="271.78" x2="294.64" y2="271.78" width="0.1524" layer="91"/>
 <label x="289.56" y="271.78" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="IN11" class="0">
@@ -4238,7 +4238,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="274.32" x2="294.64" y2="274.32" width="0.1524" layer="91"/>
 <label x="289.56" y="274.32" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="4"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="IN12" class="0">
@@ -4250,7 +4250,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="276.86" x2="294.64" y2="276.86" width="0.1524" layer="91"/>
 <label x="289.56" y="276.86" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="5"/>
+<pinref part="JP1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="IN13" class="0">
@@ -4262,7 +4262,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="279.4" x2="294.64" y2="279.4" width="0.1524" layer="91"/>
 <label x="289.56" y="279.4" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="6"/>
+<pinref part="JP1" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="IN14" class="0">
@@ -4274,7 +4274,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="281.94" x2="294.64" y2="281.94" width="0.1524" layer="91"/>
 <label x="289.56" y="281.94" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="7"/>
+<pinref part="JP1" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="IN15" class="0">
@@ -4286,7 +4286,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="284.48" y1="284.48" x2="294.64" y2="284.48" width="0.1524" layer="91"/>
 <label x="289.56" y="284.48" size="1.778" layer="95"/>
-<pinref part="8-15" gate="G$1" pin="8"/>
+<pinref part="JP1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="IN0" class="0">

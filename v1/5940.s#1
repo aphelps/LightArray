@@ -3839,6 +3839,11 @@ grid 2.54 mm</description>
 <wire x1="210.82" y1="220.98" x2="177.8" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="220.98" x2="177.8" y2="218.44" width="0.1524" layer="91"/>
 <junction x="177.8" y="218.44"/>
+<pinref part="U1" gate="G$1" pin="DCPRG"/>
+<wire x1="210.82" y1="226.06" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="226.06" x2="177.8" y2="220.98" width="0.1524" layer="91"/>
+<junction x="177.8" y="220.98"/>
+<label x="177.8" y="226.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3975,10 +3980,6 @@ grid 2.54 mm</description>
 <wire x1="185.42" y1="243.84" x2="177.8" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="243.84" x2="177.8" y2="248.92" width="0.1524" layer="91"/>
 <junction x="177.8" y="248.92"/>
-<pinref part="U1" gate="G$1" pin="DCPRG"/>
-<wire x1="210.82" y1="226.06" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="226.06" x2="177.8" y2="243.84" width="0.1524" layer="91"/>
-<junction x="177.8" y="243.84"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="279.4" x2="241.3" y2="279.4" width="0.1524" layer="91"/>

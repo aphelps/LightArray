@@ -650,6 +650,7 @@ IC needs to have legs bent before insertion.</description>
 <contactref element="R17" pad="P$2"/>
 <contactref element="U1" pad="27"/>
 <contactref element="POWER" pad="2"/>
+<contactref element="U1" pad="19"/>
 </signal>
 <signal name="5V">
 <contactref element="5VPWR" pad="1"/>
@@ -663,7 +664,6 @@ IC needs to have legs bent before insertion.</description>
 <contactref element="OK2" pad="7"/>
 <contactref element="U1" pad="21"/>
 <contactref element="R16" pad="P$2"/>
-<contactref element="U1" pad="19"/>
 <wire x1="33.655" y1="19.05" x2="34.29" y2="19.05" width="0.6096" layer="16"/>
 <wire x1="34.29" y1="19.05" x2="35.56" y2="19.05" width="0.6096" layer="16"/>
 <wire x1="64.77" y1="31.75" x2="64.77" y2="26.67" width="0.8128" layer="16"/>
@@ -696,7 +696,6 @@ IC needs to have legs bent before insertion.</description>
 <wire x1="56.515" y1="70.485" x2="54.61" y2="72.39" width="0.8128" layer="16"/>
 <wire x1="54.61" y1="72.39" x2="24.13" y2="72.39" width="0.8128" layer="16"/>
 <wire x1="24.13" y1="72.39" x2="21.59" y2="69.85" width="0.8128" layer="16"/>
-<wire x1="57.15" y1="60.325" x2="62.23" y2="60.325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT1">
 <contactref element="Q2" pad="D"/>
@@ -1084,7 +1083,7 @@ IC needs to have legs bent before insertion.</description>
 <signal name="N$26">
 <contactref element="U1" pad="20"/>
 <contactref element="R17" pad="P$1"/>
-<wire x1="59.69" y1="60.325" x2="59.69" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="60.325" x2="59.69" y2="63.5" width="0.8128" layer="16"/>
 </signal>
 <signal name="GSCLK/D3">
 <contactref element="U1" pad="18"/>
@@ -1119,6 +1118,14 @@ IC needs to have legs bent before insertion.</description>
 <wire x1="52.07" y1="60.325" x2="52.07" y2="63.5" width="0.6096" layer="16"/>
 <wire x1="52.07" y1="63.5" x2="52.07" y2="66.66" width="0.6096" layer="16"/>
 <wire x1="52.07" y1="66.66" x2="54.22" y2="68.81" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$17">
+<polygon width="0.6096" layer="16">
+<vertex x="0" y="0"/>
+<vertex x="0" y="74.93"/>
+<vertex x="97.79" y="74.93"/>
+<vertex x="97.79" y="0"/>
+</polygon>
 </signal>
 </signals>
 </board>
